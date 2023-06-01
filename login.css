@@ -1,0 +1,76 @@
+body {
+	font-family: sans-serif;
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.logincontainer {
+	width: 380px;
+	margin: 7% auto;
+	border-radius: 25px;
+	background-color: rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 17px #333;
+}
+
+.loginheader {
+	text-align: center;
+	padding-top: 75px;
+}
+
+.vheader h1 {
+	color: #333;
+	font-size: 45px;
+	margin-bottom: 80px;
+}
+
+.loginmain {
+	text-align: center;
+}
+
+.loginmain input[type="text"],
+.loginmain input[type="password"],
+.loginmain button {
+	width: 300px;
+	height: 40px;
+	border: none;
+	outline: none;
+	padding-left: 40px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: #333;
+	margin-bottom: 40px;
+}
+
+.loginmain button {
+	padding-left: 0;
+	background-color: #83acf1;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.loginmain button:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #7799d4;
+}
+
+.loginmain input[type="text"]:hover,
+.loginmain input[type="password"]:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #ddd;
+}
+
+.loginmain span {
+	position: relative;
+}
+
+.loginmain i {
+	position: absolute;
+	left: 15px;
+	color: #333;
+	font-size: 16px;
+	top: 2px;
+}
+
